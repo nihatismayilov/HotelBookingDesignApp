@@ -255,38 +255,5 @@ class ViewController: UIViewController {
             tabView.getTabBar(tab: list)
             self.tabBarStack.addArrangedSubview(tabView)
         }
-        
     }
-    
 }
-
-struct HotelList {
-    let hotelImage: UIImage
-    let title: String
-    let description: String
-    let rating: Double
-    let reviews: Int
-    let price: String
-    let saveImage: UIImage
-}
-
-struct HotelCollection {
-    let hotelImage: UIImage
-    let title: String
-    let description: String
-    let rating: Double
-    let price: String
-    let saveImage: UIImage
-}
-
-struct Category {
-    let categoryLabel: String
-    let backgroundColor: UIColor
-    let textColor: UIColor
-}
-
-struct Tab {
-    let tabImage: UIImage
-    let title: String
-}
-
